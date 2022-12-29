@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4a1c53c16db548e4a7ffc94826d07388" Name="Diagram1">
+        <EntityTypeShape EntityType="WSDatabaseModel.C__EFMigrationsHistory" Width="1.5" PointX="8.125" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.Chapter" Width="1.75" PointX="2.875" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.Comment" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.RoleClaim" Width="1.5" PointX="4.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.Role" Width="1.5" PointX="2.875" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.Story" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.Topic" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.UserClaim" Width="1.5" PointX="8.125" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.UserLogin" Width="1.5" PointX="8.125" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.User" Width="2" PointX="5.125" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSDatabaseModel.UserToken" Width="1.5" PointX="8.125" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="WSDatabaseModel.FK_Chapters_Stories_IdStory" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.FK_Comments_Stories_IdStory" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.FK_Comments_Users_IdUser" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.FK_RoleClaims_Roles_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.FK_UserClaims_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.FK_UserLogins_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.FK_UserTokens_Users_UserId" ManuallyRouted="false" ></AssociationConnector>
+        <AssociationConnector Association="WSDatabaseModel.TopicInStory" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.UserHistoryChapters" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.UserLikeStories" ManuallyRouted="false" />
+        <AssociationConnector Association="WSDatabaseModel.UserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
